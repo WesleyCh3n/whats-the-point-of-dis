@@ -1,14 +1,13 @@
 @echo off
 setlocal
-call path.cmd
-echo %path%
+call env.cmd
 
-cd %INSTALL_ROOT%\stable-diffusion
-set PYTHON=
-set GIT=
-set VENV_DIR=
+set path=%PY_ROOT%;%PY_ROOT%\Scripts;%GIT_ROOT%\cmd
+set VENV_DIR=%SD_ROOT%\venv
+
+cd %SD_ROOT%
 set COMMANDLINE_ARGS=--opt-sub-quad-attention --no-half
-
 call asrwebui.bat
 
+pause
 endlocal

@@ -7,6 +7,12 @@ set PY_ROOT=%INSTALL_ROOT%\python
 set LZMA_ROOT=%INSTALL_ROOT%\7z
 set GIT_ROOT=%INSTALL_ROOT%\git
 set CURL_ROOT=%INSTALL_ROOT%\curl
+set SHARK_ROOT=%INSTALL_ROOT%\shark\
+set SD_ROOT=%INSTALL_ROOT%\stable-diffusion
+set OLIVE_ROOT=%INSTALL_ROOT%\olive
+
+set TCL_LIBRARY=%PY_ROOT%\tcl\tcl8.6
+set TK_LIBRARY=%PY_ROOT%\tk\tk8.6
 
 set _PY=%PY_ROOT%\python.exe
 set _PIP=%PY_ROOT%\Scripts\pip.exe
@@ -14,10 +20,6 @@ set _7Z=%INSTALL_ROOT%\7z\7z.exe
 set _GIT=%INSTALL_ROOT%\git\cmd\git.exe
 set _CURL=%INSTALL_ROOT%\curl\bin\curl.exe
 
-REM set SHARK_ROOT=%INSTALL_ROOT%\shark\
-REM set SHARK=%SHARK_ROOT%\shark.exe
-
-REM set SD_ROOT=%INSTALL_ROOT%\stable-diffusion
 
 REM=============================================================================
 REM Download URL
